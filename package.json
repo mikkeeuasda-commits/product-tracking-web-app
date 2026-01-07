@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build --no-turbo",
-    "dev": "next dev --no-turbo"
+    "build": "next build",
+    "dev": "next dev"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
