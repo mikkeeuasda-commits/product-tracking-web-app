@@ -7,7 +7,8 @@ import { th } from "date-fns/locale"
 import Image from "next/image"
 import dynamic from "next/dynamic"
 
-const MapDisplay = dynamic(() => import("@/components/map-display"), { ssr: false })
+// const MapDisplay = dynamic(() => import("@/components/map-display"), { ssr: false })
+const MapDisplay = dynamic(() => import("../../../components/map-display"), { ssr: false })
 
 type Product = {
   id: string
